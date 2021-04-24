@@ -18,7 +18,7 @@ test('5 * 10 is equal to 50', () => {
 
 describe('Division tests', () => {
     test('10 / 0', () => {
-        expect(operations.division(10, 0)).toBe(0);
+        expect(operations.division(10, 0)).toBe('No se puede dividir por 0');
     });
     test('10 / 2', () => {
         expect(operations.division(10, 2)).toBe(5);

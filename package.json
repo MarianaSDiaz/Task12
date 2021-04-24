@@ -5,7 +5,7 @@
   "main": "operations.js",
   "scripts": {
     "test": "jest --color",
-    "test-coverage": "test --coverage --color"
+    "test-coverage": "jest --coverage --color"
   },
   "jest": {
     "transform": {
