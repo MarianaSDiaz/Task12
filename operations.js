@@ -43,7 +43,7 @@ const potencia = (base, exponente) => {
 }
 
 //8
-const anidada = (a,b) => {
+const anidada = (a, b) => {
     function cuadrado(x) {
         return x * x;
     }
